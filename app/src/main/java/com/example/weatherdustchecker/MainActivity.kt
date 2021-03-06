@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
             WeatherPageFragment.newInstance(37.58, 126.98))
         */
         transaction.add(R.id.fragment_container,
-                DustPageFragment.newInstance(37.58, 126.98))
+            DustPageFragment.newInstance(37.58, 126.98))
 
         transaction.commit()
     }
